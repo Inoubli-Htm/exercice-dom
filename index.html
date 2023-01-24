@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="quiz">
+      <h1>F3 Quiz</h1>
+      <form>
+        <div class="question">
+          <p>What is Dom</p>
+          <input type="radio" name="question1" value="option1" />Document object
+          modeling <br />
+          <input type="radio" name="question1" value="option2" />I don't know<br />
+          <input type="radio" name="question1" value="option3" />DOMDOM<br />
+        </div>
+        <div class="question">
+          <p>What is CSS</p>
+          <input type="radio" name="question2" value="option1" />saas cousin
+          <br />
+          <input type="radio" name="question2" value="option2" />css that come
+          after html<br />
+          <input type="radio" name="question2" value="option3" />cascading style
+          sheet<br />
+        </div>
+        <div class="question">
+          <p>who is heithem</p>
+          <input type="radio" name="question3" value="option1" />mechant<br />
+          <input type="radio" name="question3" value="option2" />inoubi
+          heithem<br />
+          <input type="radio" name="question3" value="option3" />i don't know<br />
+        </div>
+        <button type="submit" onclick="checkAnswers()">Submit</button>
+      </form>
+      <span id="results"></span>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
